@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{  box-sizing: border-box;}
+
+body{
+    background-color: #f8f9fb;
+    font-family: inter;
+}
+
+.container{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.div{
+    box-shadow:  7px 8px  #f4f4f4;
+    position: relative;
+    max-width: 280px;
+  border-radius: 5px;
+      flex: 0 1 30%;
+      height: 520px;
+}
+.dollar2{
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    top: 75px;
+    left:82px
+}
+.dollar1,.dollar3{
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    top: 48px;
+    left:80px
+}
+.text{
+    text-align: center;
+    font-weight: bold;   
+}
+.text sub{
+    font-size: 12px;
+    font-weight: bold;
+}
+.text p{
+    display: inline;
+    font-size: 55px;
+    font-weight: bold;
+    padding-left: 20px;
+} 
+
+.one,.three{background-color: #fff;}
+
+.one,.three .text{ padding-top: 45px }
+
+.two{
+    background-color: #641bff;
+    color: #fff;
+    height: 560px;
+    order: 0;
+}
+.two h4{
+    padding: 0;
+    margin: 15px 0 18px 0;
+}
+.two .up{padding-left: 15px;}
+.div .text h4{
+    padding:0 0 20px 0;
+}
+
+hr{
+    width: 80%;
+    opacity: .7;
+}
+/*icons*/
+.div .icons{
+ padding: 10px 45px;
+ line-height: .8em;
+}
+.div .icons .trough{
+    text-decoration: line-through;
+    color: #99a6c4;
+}
+.div .icons i{
+    line-height: .5em;
+    padding-right: 5px;
+}
+/*button */
+ .bu{
+     display: flex;
+     justify-content: center;
+     justify-items: center;
+ }
+
+ .bu .btn{
+    color: #fff;
+    background-color: #641bff;
+    border-radius: 5px;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin: 30px 0 40px 0;
+   font-weight: bold;
+   transition: scale() 1s;
+}
+.bu .btn2{
+    background-color: #fff;
+    color:#641bff ;
+}
+.btn:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+@media only screen and (max-width:850px){
+ .dollar2{ left:55px;}   
+ .dollar1,.dollar3{ left: 50px;}
+}
